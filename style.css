@@ -1,7 +1,9 @@
 body{
     padding:0;
     margin:0;
+    background: #faf7f7;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .back{
@@ -98,6 +100,7 @@ h4 {
     display: block;
 }
 
+
 .food-menu {
     text-align: center;
     font-weight: 20px;
@@ -112,9 +115,14 @@ h4 {
     width: 350px;
     margin: 25px;
     height: 300px;
-    border-radius: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    
 } 
 
+.food-menu img:hover{
+    
+}
 .about {
     width: 100%;
     padding: 100px 0px;
@@ -130,7 +138,7 @@ h4 {
     margin-left: 40px;
 }
 
-.main{
+.content1{
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -157,13 +165,58 @@ h4 {
     align-items: center;
 }
 
+.contact {
+    width: 100%;
+    margin-bottom: 85px;
+}
+
+.contact img {
+    width: 550px;
+    height: auto;
+}
 .food-m img {
     width: 350px;
     height: 300px;
 }
 
-.price-tag{
+.priceTag{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.addBtn{
+    margin-top: 25px;
+    color: #f5f3f3;
+    padding:  4px 8px;
+    border-radius: 5px; 
+}
+
+#price-tag1{
+    width: 350px;
+    margin: 25px;
+    height: 95px;
+    border-radius: 5px;
+}
+
+#price-tag2{
+    text-align: center;
+    background: #f5f3f3;
+    margin: 5px;
+}
+
+#price-tag3{
     display: block;
     text-align: center;
+    background: #f5f3f3;
+    margin: 5px;
+}
+
+#add-btn{
+    background: #eb8d12;
+    color: #f5f3f3; 
+    padding:  8px 15px;
+    margin-top:  10px;
+    border-radius: 5px;
+    border: none;
 }
 
